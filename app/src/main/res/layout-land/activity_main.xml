@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dannextech.apps.personaldjapp.MainActivity"
+    android:background="#ff55">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tvName1"
+                android:text="Music playing"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/ivDeck1"
+                android:layout_weight="3"
+                android:src="@mipmap/ic_cirlce_shape"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ivPlay1"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/ivStop1"
+                    android:src="@drawable/ic_stop_black_24dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="effect 1"
+                android:id="@+id/btEffect1"
+                android:layout_marginBottom="16dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="effect 2"
+                android:id="@+id/btEffect2"
+                android:layout_marginBottom="16dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="effect 3"
+                android:id="@+id/btEffect3"
+                android:layout_marginBottom="16dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="effect 4"
+                android:id="@+id/btEffect4"
+                android:layout_marginBottom="16dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="effect 5"
+                android:id="@+id/btEffect5"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tvName2"
+                android:text="Music playing"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/ivDeck2"
+                android:layout_weight="3"
+                android:src="@mipmap/ic_cirlce_shape"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/ivPlay2"
+                    android:src="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/ivStop2"
+                    android:src="@drawable/ic_stop_black_24dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
